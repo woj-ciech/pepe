@@ -1,6 +1,8 @@
 # PEPE - Post Exploitation Pastebin Emails
 Collect information about leaked email addresses from Pastebin
 
+![](https://github.com/woj-ciech/pepe/blob/master/imgs/pepe.png?raw=true)
+
 ## About
 Script parses Pastebin email:password dumps and gather information about each email address. It supports Google, Trumail, Pipl, FullContact and HaveIBeenPwned. Moreover, it allows you to send an informational mail to person about his leaked password, at the end every information lands in Elasticsearch for further exploration.
 
@@ -161,8 +163,8 @@ https://plus.google.com/[REDACTED]
 [REDACTED]
 ```
 Non-interactive mode, when only choosen modules are executed against email addressess.
-root@kali:~/PycharmProjects/# python pepe.py --file pastetest.txt --blacklist --modules hibp google fullcontact trumail --elasticsearch
 ```
+root@kali:~/PycharmProjects/# python pepe.py --file pastetest.txt --blacklist --modules hibp google fullcontact trumail --elasticsearch
 -----------------------Found email [REDACTED]@hotmail.com with password [REDACTED]-----------------------
 ---Google Search---
 https://pastebin.com/[REDACTED]
@@ -228,7 +230,10 @@ https://youtube.com/user/[REDACTED]
 [REDACTED]
 ```
 ## Screens
+![](https://github.com/woj-ciech/pepe/blob/master/imgs/pipl.jpg?raw=true)
 
+![](https://github.com/woj-ciech/pepe/blob/master/imgs/kibana.jpg?raw=true)
 
+![](https://github.com/woj-ciech/pepe/blob/master/imgs/email.jpg?raw=true)
 ## Other
 I'm not responsible for any damage caused.
