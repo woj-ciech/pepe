@@ -237,3 +237,4 @@ https://youtube.com/user/[REDACTED]
 ![](https://github.com/woj-ciech/pepe/blob/master/imgs/email.jpg?raw=true)
 ## Other
 I'm not responsible for any damage caused.
+You know, it was made for educational purposes.
