@@ -1,0 +1,24 @@
+{
+   "domains":{
+      "whitelist":[
+         ""
+      ],
+      "blacklist":[
+         ""
+      ]
+   },
+   "keys":{
+      "pushsafer":"api_key",
+      "fullcontact":"api_key",
+      "pipl":"api_key"
+   },
+   "gmail":{
+      "username":"gmail_username",
+      "password":"gmail_password",
+      "message":"Hey,\n\nI am a security researcher and I want to inform you that your password !PASSWORD! has been leaked and you should change it immediately.\nThis email is part of the research, you can find more about it on https://medium.com/@wojciech\n\nStay safe!"
+   },
+   "elasticsearch":{
+      "host":"127.0.0.1",
+      "port":9200
+   }
+}
