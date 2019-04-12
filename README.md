@@ -14,14 +14,14 @@ For now, notification works when it finds match on FullContact and next sends yo
 
 ## Requirements:
 - Python 3
-- FullContact API
+- FullContact API https://www.fullcontact.com/developer/
 - Google
-- Pipl API
+- Pipl API https://pipl.com/api/
 - HaveIBeenPwned
-- SafePush (for notification - optional)
-- Trumail
+- SafePush (for notification - optional - In progress) https://www.pushsafer.com/
+- Trumail https://trumail.io/
 - Gmail account (sending emails)
-- Elasticsearch (optional)
+- Elasticsearch (optional) 
 
 ```python
 pip install -r requirements
