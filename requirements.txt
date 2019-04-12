@@ -1,0 +1,11 @@
+colorama==0.4.1
+elasticsearch==6.3.1
+FullContact.py==0.0.6
+google==2.0.1
+google-search==1.0.2
+piplapis-python==5.1.5
+pyhibp==3.0.0
+python-pushsafer==0.4
+requests==2.11.1
+urllib3==1.24.1
+validate-email==1.3
