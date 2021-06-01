@@ -7,5 +7,5 @@ piplapis-python==5.1.5
 pyhibp==3.0.0
 python-pushsafer==0.4
 requests==2.11.1
-urllib3==1.24.1
+urllib3==1.26.5
 validate-email==1.3
